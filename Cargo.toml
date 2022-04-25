@@ -1,0 +1,18 @@
+[package]
+name = "rust_benchmarking"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jimmy Engström. jimmy.engstrom@sony.com"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bench]]
+name = "bench1"
+harness = false
+
+[dev-dependencies]
+criterion = "0.3.5"
+approx = "0.5.1"
+
+[dependencies]
+rand = "0.8.5"
